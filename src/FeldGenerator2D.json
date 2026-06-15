@@ -39,6 +39,18 @@
             }
           }
         }
+      },
+      {
+        "type": "java_extends",
+        "id": "Y?z4[Lj(kpY[#)ZO4YDG",
+        "x": 81,
+        "y": 87,
+        "extraState": {
+          "parentClass": "FeldGenerator"
+        },
+        "fields": {
+          "PARENT_CLASS": "FeldGenerator"
+        }
       }
     ]
   },

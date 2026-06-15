@@ -3,7 +3,7 @@
  * klicke auf 'Play', um es auszuführen!
  */
 
-public class FeldGenerator2D {
+public class FeldGenerator2D extends FeldGenerator {
     public void generiereFeld(int anzahlZeilen, int anzahlSpalten) {
     }
 
