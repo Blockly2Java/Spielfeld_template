@@ -5,8 +5,8 @@
       {
         "type": "java_static_method_noreturn",
         "id": "0-~]xj!ER5LuqkjtzKSY",
-        "x": 106,
-        "y": 98,
+        "x": -16,
+        "y": 293,
         "extraState": "<mutation xmlns=\"http://www.w3.org/1999/xhtml\"></mutation>",
         "icons": {
           "comment": {
@@ -18,8 +18,360 @@
         },
         "fields": {
           "NAME": "main"
+        },
+        "inputs": {
+          "STACK": {
+            "block": {
+              "type": "java_local_var_set",
+              "id": "H4Pw+n:-@x!OVS`P.S}4",
+              "fields": {
+                "VAR": {
+                  "id": "Bsq3Hy(-23*W3XXzkE#`"
+                }
+              },
+              "inputs": {
+                "VALUE": {
+                  "block": {
+                    "type": "callconstructor",
+                    "id": "r,-@s/?kZ7vXV1u3IRTF",
+                    "extraState": {
+                      "constructorValue": "FeldGenerator:::"
+                    },
+                    "fields": {
+                      "CONSTRUCTOR_CLASS": "FeldGenerator:::"
+                    }
+                  }
+                }
+              },
+              "next": {
+                "block": {
+                  "type": "java_obj_method_call_noreturn",
+                  "id": "+UEPVDb9|$#MDG^]4l^{",
+                  "extraState": "<mutation xmlns=\"http://www.w3.org/1999/xhtml\" args=\"2\" method=\"generiereFeld\" name0=\"int zeilen\" name1=\"int spalten\"></mutation>",
+                  "fields": {
+                    "METHOD": "generiereFeld"
+                  },
+                  "inputs": {
+                    "OBJ": {
+                      "shadow": {
+                        "type": "java_this",
+                        "id": "/H_RtOd=,vU*I6~T:U!o"
+                      },
+                      "block": {
+                        "type": "java_local_var_get",
+                        "id": "|OW1a+k5v+]C.JSYdg|C",
+                        "fields": {
+                          "VAR": {
+                            "id": "Bsq3Hy(-23*W3XXzkE#`"
+                          }
+                        }
+                      }
+                    },
+                    "ARG0": {
+                      "block": {
+                        "type": "math_number",
+                        "id": "|~7QWea.{:G+RV!{FU/?",
+                        "fields": {
+                          "NUM": 10
+                        }
+                      }
+                    },
+                    "ARG1": {
+                      "block": {
+                        "type": "math_number",
+                        "id": "tGmFA1/2IT[I18``%Uk4",
+                        "fields": {
+                          "NUM": 10
+                        }
+                      }
+                    }
+                  },
+                  "next": {
+                    "block": {
+                      "type": "java_obj_method_call_noreturn",
+                      "id": ",arqU!v)!oxKukx@+JD=",
+                      "extraState": "<mutation xmlns=\"http://www.w3.org/1999/xhtml\" args=\"3\" method=\"setzeFarbe\" name0=\"farbe\" name1=\"int x\" name2=\"int y\"></mutation>",
+                      "fields": {
+                        "METHOD": "setzeFarbe"
+                      },
+                      "inputs": {
+                        "OBJ": {
+                          "shadow": {
+                            "type": "java_this",
+                            "id": "/H_RtOd=,vU*I6~T:U!o"
+                          },
+                          "block": {
+                            "type": "java_local_var_get",
+                            "id": "gbX]/}U]_{=m=08fkxp~",
+                            "fields": {
+                              "VAR": {
+                                "id": "Bsq3Hy(-23*W3XXzkE#`"
+                              }
+                            }
+                          }
+                        },
+                        "ARG0": {
+                          "block": {
+                            "type": "colour_picker",
+                            "id": "XoR,E2ER#)fXz~s*=Y:?",
+                            "fields": {
+                              "COLOUR": "#ff0000"
+                            }
+                          }
+                        },
+                        "ARG1": {
+                          "block": {
+                            "type": "math_number",
+                            "id": "vGc0wk;(AljCwM@jwiNl",
+                            "fields": {
+                              "NUM": 9
+                            }
+                          }
+                        },
+                        "ARG2": {
+                          "block": {
+                            "type": "math_number",
+                            "id": "XfK}bg3}fOw~8K-fCTmu",
+                            "fields": {
+                              "NUM": 9
+                            }
+                          }
+                        }
+                      },
+                      "next": {
+                        "block": {
+                          "type": "java_local_var_set",
+                          "id": "8V?#17rVMw4N.RDS}rR+",
+                          "fields": {
+                            "VAR": {
+                              "id": "h9u$(`~rU@myyrnQNST_"
+                            }
+                          },
+                          "inputs": {
+                            "VALUE": {
+                              "block": {
+                                "type": "callconstructor",
+                                "id": "Y$^|L-k6;}o|CP!~@GM1",
+                                "extraState": {
+                                  "constructorValue": "FeldGenerator2D:::"
+                                },
+                                "fields": {
+                                  "CONSTRUCTOR_CLASS": "FeldGenerator2D:::"
+                                }
+                              }
+                            }
+                          },
+                          "next": {
+                            "block": {
+                              "type": "java_obj_method_call_noreturn",
+                              "id": "L3XKy+]h*m~rc(eOhzmI",
+                              "extraState": "<mutation xmlns=\"http://www.w3.org/1999/xhtml\" args=\"2\" method=\"generiereFeld\" name0=\"int zeilen\" name1=\"int spalten\"></mutation>",
+                              "fields": {
+                                "METHOD": "generiereFeld"
+                              },
+                              "inputs": {
+                                "OBJ": {
+                                  "shadow": {
+                                    "type": "java_this",
+                                    "id": "/H_RtOd=,vU*I6~T:U!o"
+                                  },
+                                  "block": {
+                                    "type": "java_local_var_get",
+                                    "id": "J46Rn#%^P309thLZHAhP",
+                                    "fields": {
+                                      "VAR": {
+                                        "id": "h9u$(`~rU@myyrnQNST_"
+                                      }
+                                    }
+                                  }
+                                },
+                                "ARG0": {
+                                  "block": {
+                                    "type": "math_number",
+                                    "id": "j)A)!0JcHM9)#Q/cW67V",
+                                    "fields": {
+                                      "NUM": 5
+                                    }
+                                  }
+                                },
+                                "ARG1": {
+                                  "block": {
+                                    "type": "math_number",
+                                    "id": "@`3LIR8^yW@lT]FQ*HuE",
+                                    "fields": {
+                                      "NUM": 10
+                                    }
+                                  }
+                                }
+                              },
+                              "next": {
+                                "block": {
+                                  "type": "java_local_var_set",
+                                  "id": "-Q(/+2nTQAXs{r%VpE0h",
+                                  "fields": {
+                                    "VAR": {
+                                      "id": "5GvN+8XFM!{Ly`r2R62t"
+                                    }
+                                  },
+                                  "inputs": {
+                                    "VALUE": {
+                                      "block": {
+                                        "type": "math_number",
+                                        "id": "162u]$t#IE,yMff`uRL[",
+                                        "fields": {
+                                          "NUM": 8
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "next": {
+                                    "block": {
+                                      "type": "java_local_var_set",
+                                      "id": "wkJJp=DW}vf6Pb#,BB7h",
+                                      "fields": {
+                                        "VAR": {
+                                          "id": "bq$YfgKV:qY0}MhsG[IB"
+                                        }
+                                      },
+                                      "inputs": {
+                                        "VALUE": {
+                                          "block": {
+                                            "type": "math_number",
+                                            "id": "aFrBvPY:G5[Osi`Fg(Es",
+                                            "fields": {
+                                              "NUM": 2
+                                            }
+                                          }
+                                        }
+                                      },
+                                      "next": {
+                                        "block": {
+                                          "type": "java_obj_method_call_noreturn",
+                                          "id": "$X`gX}iwTZ6h;L`Bq_lj",
+                                          "extraState": "<mutation xmlns=\"http://www.w3.org/1999/xhtml\" args=\"3\" method=\"setzeFarbe\" name0=\"farbe\" name1=\"int x\" name2=\"int y\"></mutation>",
+                                          "fields": {
+                                            "METHOD": "setzeFarbe"
+                                          },
+                                          "inputs": {
+                                            "OBJ": {
+                                              "shadow": {
+                                                "type": "java_this",
+                                                "id": "/H_RtOd=,vU*I6~T:U!o"
+                                              },
+                                              "block": {
+                                                "type": "java_local_var_get",
+                                                "id": "=Ngg+n=5#d4:5,Op`K|u",
+                                                "fields": {
+                                                  "VAR": {
+                                                    "id": "h9u$(`~rU@myyrnQNST_"
+                                                  }
+                                                }
+                                              }
+                                            },
+                                            "ARG0": {
+                                              "block": {
+                                                "type": "colour_picker",
+                                                "id": "Yc/U5CG/x5IwG)2Ucw@x",
+                                                "fields": {
+                                                  "COLOUR": "#33ff33"
+                                                }
+                                              }
+                                            },
+                                            "ARG1": {
+                                              "block": {
+                                                "type": "java_local_var_get",
+                                                "id": "!iOTOk@}xzOLR~KTl:|2",
+                                                "fields": {
+                                                  "VAR": {
+                                                    "id": "5GvN+8XFM!{Ly`r2R62t"
+                                                  }
+                                                }
+                                              }
+                                            },
+                                            "ARG2": {
+                                              "block": {
+                                                "type": "java_local_var_get",
+                                                "id": "rTOr@^EI6_;e-,q$Imm;",
+                                                "fields": {
+                                                  "VAR": {
+                                                    "id": "bq$YfgKV:qY0}MhsG[IB"
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
         }
+      },
+      {
+        "type": "java_static_method_call_return",
+        "id": "[y(OR^!bHSt`e?-ZnSfu",
+        "x": 1271,
+        "y": 648,
+        "extraState": "<mutation xmlns=\"http://www.w3.org/1999/xhtml\" method=\"reiheErzeugen\" args=\"2\" name0=\"int anzahl\" name1=\"int y\"></mutation>"
       }
     ]
-  }
+  },
+  "variables": [
+    {
+      "name": "grafik",
+      "id": "-?N:c@R9,_#GBQK6[)@j",
+      "type": "local"
+    },
+    {
+      "name": "Rectangle[] arr",
+      "id": "LU2q@Qr4O3a1~yKZ=2%t",
+      "type": "local"
+    },
+    {
+      "name": "i",
+      "id": "^q(5ODyFL0UjltwIh/Y}",
+      "type": "local"
+    },
+    {
+      "name": "j",
+      "id": "A7!~RT?-o__9B~v-YeCy",
+      "type": "local"
+    },
+    {
+      "name": "k",
+      "id": "vwQ]$q!SwjIt]dS$q3N]",
+      "type": "local"
+    },
+    {
+      "name": "spielfeld",
+      "id": "Bsq3Hy(-23*W3XXzkE#`",
+      "type": "local"
+    },
+    {
+      "name": "spielfeld2d",
+      "id": "h9u$(`~rU@myyrnQNST_",
+      "type": "local"
+    },
+    {
+      "name": "int x",
+      "id": "5GvN+8XFM!{Ly`r2R62t",
+      "type": "local"
+    },
+    {
+      "name": "int y",
+      "id": "bq$YfgKV:qY0}MhsG[IB",
+      "type": "local"
+    }
+  ]
 }
