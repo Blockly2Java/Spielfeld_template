@@ -4,15 +4,15 @@
   "categories": [
     {
       "name": "Logik",
-      "active": false,
+      "active": true,
       "blocks": [
         {
           "type": "controls_if",
-          "active": true
+          "active": false
         },
         {
           "type": "logic_compare",
-          "active": true
+          "active": false
         },
         {
           "type": "logic_operation",
@@ -28,7 +28,7 @@
         },
         {
           "type": "logic_null",
-          "active": false
+          "active": true
         },
         {
           "type": "logic_ternary",

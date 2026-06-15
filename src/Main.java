@@ -16,12 +16,7 @@ public class Main {
     public static void main() {
         FeldGenerator spielfeld = new FeldGenerator();
         spielfeld.generiereFeld(10, 10);
-        spielfeld.setzeFarbe("#ff0000", 9, 9);
-        FeldGenerator2D spielfeld2d = new FeldGenerator2D();
-        spielfeld2d.generiereFeld(5, 10);
-        int x = 8;
-        int y = 2;
-        spielfeld2d.setzeFarbe("#33ff33", x, y);
+        spielfeld.setzeFarbe("#ff0000", 2, 5);
     }
 
 
